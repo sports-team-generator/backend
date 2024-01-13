@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Balanced soccer teams generator",
+  "main": "dist/index.js",
+  "scripts": {
+    "pretty": "pino-pretty",
+    "dev": "tsx watch --clear-screen=false src/index.ts | npm run pretty",
+    "build": "tsc",
+    "format": "prettier --write 'src/**/*.{ts,js,json}'",
+    "check-format": "prettier --check 'src/**/*.{ts,js,json}'",
+    "ts:check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/random-soccer-teams/backend.git"
+  },
+  "author": "Andre Monello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/random-soccer-teams/backend/issues"
+  },
+  "homepage": "https://github.com/random-soccer-teams/backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pino-http": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "pino-pretty": "^10.3.1",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
