@@ -1,3 +1,5 @@
+require("dotenv/config");
+require("module-alias/register");
 import { getPort } from "@common/utils/config";
 import { app, logger } from "@src/server";
 
