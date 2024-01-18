@@ -109,6 +109,34 @@ export class SelectorController {
       tactical: 5,
       isRecurring: false,
     },
+    {
+      name: "Matheus",
+      technical: 9,
+      physical: 7,
+      tactical: 7,
+      isRecurring: false
+    },
+    {
+      name: "Ryan",
+      technical: 6,
+      physical: 6,
+      tactical: 6,
+      isRecurring: false
+    },
+    {
+      name: "Pedro",
+      technical: 6,
+      physical: 6,
+      tactical: 6,
+      isRecurring: false,
+    },
+    {
+      name: "Luan",
+      technical: 6,
+      physical: 6,
+      tactical: 7,
+      isRecurring: false
+    },
     // {
     //   name: "Eduardo",
     //   technical: 7,
