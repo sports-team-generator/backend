@@ -1,2 +1,2 @@
 # backend
-Balanced soccer teams generator
+Balanced sports teams generator
